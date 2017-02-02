@@ -16,7 +16,7 @@ UIView、UIControl
 |プロパティ名|説明|サンプル|
 |---|---|---|
 |text | 入力された内容を参照する | textField.text |
-|delegate | UITextFieldDelegateを利用するためにdelegateを指定する | textField.delegate = self |
+|delegate | delegateを指定する <br>UITextFieldDelegateを利用するため | textField.delegate = self |
 |placeholder | プレースホルダを設定する | textField.placeholder = "do something" |
 |keyboardType | キーボードタイプを設定する | textField.keyboardType = .default |
 |clearButtonMode | クリアボタンの表示を設定する | textField.clearButtonMode = .always|
