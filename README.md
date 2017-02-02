@@ -7,9 +7,9 @@ UITextFieldは、ユーザから文字や数値などの入力を受け付ける
 UIView、UIControl
 
 ## 実装手順
-(1) Storyboardを利用して、UITextFieldをドラッグ&ドロップして配置します。
-(2) UITextFieldをAutoLayoutを利用して、レイアウトします。
-(3) 必要に応じて、プロパティやメソッドを利用します。
+1. Storyboardを利用して、UITextFieldをドラッグ&ドロップして配置します。
+2. UITextFieldをAutoLayoutを利用して、レイアウトします。
+3. 必要に応じて、プロパティやメソッドを利用します。
 
 ## 主要プロパティ
 
