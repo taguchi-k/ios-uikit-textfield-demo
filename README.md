@@ -9,7 +9,8 @@ UIView、UIControl
 ## 実装手順
 1. Storyboardを利用して、UITextFieldをドラッグ&ドロップして配置します。
 2. UITextFieldをAutoLayoutを利用して、レイアウトします。
-3. 必要に応じて、プロパティやメソッドを利用します。
+3. UITextFieldとUIViewControllerを関連付けします。
+4. 必要に応じて、プロパティやメソッドを利用します。
 
 ## 主要プロパティ
 
