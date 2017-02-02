@@ -3,7 +3,7 @@
 ## 概要
 UITextFieldは、ユーザから文字や数値などの入力を受け付けるときに利用します。
 
-![UITextFieldのイメージ](wiki/images/tf.png)
+![UITextFieldのイメージ](https://github.com/stv-ekushida/ios-uikit-textfield-demo/wiki/images/tf.png)
 
 ## 関連クラス
 UIView、UIControl
