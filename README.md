@@ -29,7 +29,7 @@ UIView、UIControl
 |becomeFirstResponder | 該当のテキストフィールドにフォーカスを当てる | textField.becomeFirstResponder() |
 |resignFirstResponder | キーボードを閉じる | textField.resignFirstResponder() |
 
-### UITextFieldDelegateのメソッド
+### UITextFieldDelegateプロトコルのメソッド
 
 |メソッド名|説明|必須|
 |---|---|---|
