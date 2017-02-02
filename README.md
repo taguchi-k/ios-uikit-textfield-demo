@@ -7,9 +7,9 @@ UITextFieldは、ユーザから文字や数値などの入力を受け付ける
 UIView、UIControl
 
 ## 実装手順
-1. Storyboardを利用して、UITextFieldをドラッグ&ドロップして配置する
-2. UITextFieldをAutoLayoutを利用して再配置する
-3. 必要に応じて、プロパティやメソッドを利用する
+(1) Storyboardを利用して、UITextFieldをドラッグ&ドロップして配置します。
+(2) UITextFieldをAutoLayoutを利用して、レイアウトします。
+(3) 必要に応じて、プロパティやメソッドを利用します。
 
 ## 主要プロパティ
 
@@ -39,3 +39,6 @@ UIView、UIControl
 |textFieldDidEndEditing | テキストフィールドの編集が終了する直後に呼び出される | - | 
 |textFieldShouldReturn | Returnボタンがタップされた時に呼ばれる | - | 
 |textFieldShouldClear | クリアボタンがタップされた時に呼ばれる | - | 
+
+## フレームワーク
+UIKit.framework
