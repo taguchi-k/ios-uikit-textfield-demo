@@ -20,3 +20,19 @@ UIView、UIControl
 |textAlignment | テキストのアライン（揃える）を設定する  | textField.textAlignment = .left|
 
 ## 主要メソッド
+
+|メソッド名|説明|サンプル|
+|---|---|---|
+|becomeFirstResponder | 該当のテキストフィールドにフォーカスを当てる | textField.becomeFirstResponder() |
+|resignFirstResponder | キーボードを閉じる | textField.resignFirstResponder() |
+
+UITextFieldDelegateのメソッド
+
+|メソッド名|説明|サンプル|
+|---|---|---|
+|textFieldShouldBeginEditing | テキストフィールドを編集する直前に呼び出される | 
+|textFieldShouldEndEditing | テキストフィールドの編集が終了する直前に呼び出される | 
+|textFieldDidBeginEditing | テキストフィールドを編集する直後に呼び出される | 
+|textFieldDidEndEditing | テキストフィールドの編集が終了する直後に呼び出される | 
+|textFieldShouldReturn | Returnボタンがタップされた時に呼ばれる | 
+|textFieldShouldClear | クリアボタンがタップされた時に呼ばれる | 
