@@ -59,34 +59,42 @@ extension ViewController: UITextFieldDelegate {
     /// テキストフィールドを編集する直前に呼び出される
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         print(#function)
+        print(textField.text ?? "未入力")
         return true
     }
 
     /// テキストフィールドの編集が終了する直前に呼び出される
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         print(#function)
+        print(textField.text ?? "未入力")
         return true
     }
     
     /// テキストフィールドを編集する直後に呼び出される
     func textFieldDidBeginEditing(_ textField: UITextField) {
         print(#function)
+        print(textField.text ?? "未入力")
     }
     
     /// テキストフィールドの編集が終了する直後に呼び出される
     func textFieldDidEndEditing(_ textField: UITextField) {
         print(#function)
+        print(textField.text ?? "未入力")
     }
     
     /// Returnボタンがタップされた時に呼ばれる
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         print(#function)
+        print(textField.text ?? "未入力")
+        textField.resignFirstResponder()
         return true
     }
     
     /// クリアボタンがタップされた時に呼ばれる
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
         print(#function)
+        print(textField.text ?? "未入力")
+        textField.resignFirstResponder()
         return true
     }
 }
